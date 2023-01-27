@@ -21,8 +21,8 @@ export function SumaryTable() {
     });
   }, []);
   return (
-    <div className="w-full flex">
-      <div className="grid grid-rows-7 grid-flow-row gap-3">
+    <div className="w-full flex sm:flex-col">
+      <div className="grid grid-rows-7 sm:grid-rows-1 sm:grid-cols-[repeat(7,40px)] grid-flow-row gap-3 sm:m-auto md:gap-1">
         {weekDays.map((weekDay, i) => {
           return (
             <div
@@ -34,7 +34,7 @@ export function SumaryTable() {
           );
         })}
       </div>
-      <div className="grid grid-rows-7 grid-flow-col gap-3">
+      <div className="grid grid-rows-7 sm:grid-flow-row grid-flow-col sm:grid-cols-[repeat(7,40px)] gap-3 md:gap-1 sm:m-auto">
         {summary.length > 0 &&
           summaryDates.map((date) => {
             const dayInSummary = summary.find((day) => {
