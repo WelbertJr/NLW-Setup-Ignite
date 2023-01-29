@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\welbe\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\welbe\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2021.1\bin;C:\Users\welbe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\welbe\.dotnet\tools;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\welbe\AppData\Local\Microsoft\WindowsApps;C:\Users\welbe\AppData\Roaming\npm;%ANDROID_HOME%\emulator;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\workspace\nlw\setup\server\package.json: Unexpected token , in JSON at position 102
+      at JSON.parse (<anonymous>)
+      at C:\Users\welbe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\welbe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\welbe\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+  ,    "dev": "tsx watch src/server.ts",
+      "build": "tsc && vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@fastify/cors": "^8.2.0",
+      "@prisma/client": "^4.9.0",
+      "dayjs": "^1.11.7",
+      "fastify": "^4.11.0",
+      "tsc": "^2.0.4",
+      "zod": "^3.20.2"
+    },
+    "devDependencies": {
+      "@mermaid-js/mermaid-cli": "^9.3.0",
+      "prisma": "^4.9.0",
+      "prisma-erd-generator": "^1.2.5",
+      "tsx": "^3.12.2",
+      "typescript": "^4.9.4"
+    },
+    "prisma": {
+      "seed": "tsx prisma/seed.ts"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
