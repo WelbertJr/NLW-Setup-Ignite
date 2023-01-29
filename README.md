@@ -22,8 +22,6 @@ O habits é um aplicativo de gestão de hábitos que foi desenvolvido ao longo d
 
 O Habits é um programa de gestão de hábitos dos usuários. Nele é possível cadastrar um hábito e depois usar uma lista de checagem para controlar as atividades já realizadas, o usuário também pode ao cadastrar um hábito, escolher os dias da semana em que vai querer registrar o respectivo hábito. Após o término do dia não é mais possível editar a lista de hábitos, mas as listas ficam gravadas e é possível visualizá-las clicando no respectivo dia.
 
-- <a href="https://nlw-setup-welbertjr.netlify.app">Clique aqui para conferir o deploy da aplicação!</a>
-
 ## 🔖 Layout
 ### 💻 Web
 
@@ -31,7 +29,7 @@ O Habits é um programa de gestão de hábitos dos usuários. Nele é possível 
   <img src="webRecording.gif">
 </p><br/>
 
-- <h2>A página web é toltalmente reponsiva</h2>
+- <h2>A página web é toltalmente responsiva</h2>
 
 <p align="center">
   <img src="responsiveRecording.gif">
