@@ -28,18 +28,18 @@ O Habits é um programa de gestão de hábitos dos usuários. Nele é possível 
 ### 💻 Web
 
 <p align="center">
-  <img src="">
+  <img src="webRecording.gif">
 </p><br/>
 
 - <h2>A página web é toltalmente reponsiva</h2>
 
 <p align="center">
-  <img src="">
+  <img src="responsiveRecording.gif">
 </p><br/>
 
 ### 📲 Mobile
 <p align="center">
-  <img src="">
+  <img height="400px" src="mobileRecording.gif">
 </p><br/>
 
 ## 🚀 Tecnologias
