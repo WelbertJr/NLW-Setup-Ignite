@@ -5,8 +5,8 @@ O Habits é um aplicativo de gestão de hábitos que foi desenvolvido ao longo d
 <p align="center">Um evento gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. </p>
 
 <p align="center">
+  <a href="#deploy-do-front-end">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://welbert-luiz-silva.github.io/Habits/">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#fale-comigo">Fale comigo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,6 +18,10 @@ O Habits é um aplicativo de gestão de hábitos que foi desenvolvido ao longo d
 </p>
 
 <br>
+
+## Deploy (do front-end)
+
+Para conferir o deploy do front-end da aplicação clique <a href="https://nlw-setup-welbertjr.netlify.app/">aqui</a>. Para conseguir rodar a aplicação por completo com o back-end, siga as instruções da seção <a href="#-projeto">Projeto</a>.
 
 ## 🔧 Projeto
 
@@ -73,7 +77,6 @@ $ npx expo start
 
 # Abra o aplicativo Expo Go em seu smartphone e scaneie o QR Code gerado no teminal, isso irá abrir a aplicação em seu celular!
 ```
-
 ## 🔖 Layout
 ### 💻 Web
 
@@ -102,7 +105,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Fale comigo:
 
-<a href="mailto:welbertjunior@live.com"><img alt="Outlook" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a> <a href="https://www.linkedin.com/in/welbert-junior-2458b4167/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:welbertjunior@live.com"><img alt="Outlook" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a> <a href="https://www.linkedin.com/in/welbert-junior-2458b4167/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="https://discord.gg/fvcACVpF"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
 
 
 ## :memo: Licença
